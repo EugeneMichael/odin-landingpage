@@ -1,0 +1,38 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul{
+    list-style-type: none;
+}
+.quote {
+    background-color: #e5e7eb;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+}
+.footer {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+}
