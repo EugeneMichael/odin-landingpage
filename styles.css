@@ -54,20 +54,15 @@ li {
 }
 
 .hero-image {
-    background-color: grey;
-    width: 50%;
-    height: 200px;
+    width: 300px;
+    height: auto;
 }
 
 .info-container{
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-
-.info-title {
-    justify-content: center;
-    flex: 1;
+    padding: 50px 0;
 }
 
 .card-container{
@@ -95,18 +90,52 @@ li {
 }
 
 .quote-container {
-
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 60px;
 }
 
-.quote {
+.quote-text {
     background-color: #e5e7eb;
     font-weight: 300;
+    font-style: italic;
     font-size: 36px;
-    color: #1f2937;
     text-align: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
+.quote-text2 {
+    margin: auto;
+    text-align: right;
+    justify-content: end;
+    font-weight: 600;
+    font-size: 24px;
+    max-width: 800px;
+}
 
+.cta-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 100px;
+}
+
+.cta-content {
+    display: flex;
+    width: 850px;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    color: white;
+    gap: 40px;
+}
+
+.cta-title {
+    font-weight: 800;
+}
 
 .button {
     background-color: #3882f6;
@@ -116,6 +145,17 @@ li {
     padding: 10px 10px;
     margin: 15px 0;
     width: 100px;
+}
+
+.button2 {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 15px 0;
+    width: 100px;
+    border: thin solid white;
 }
 
 .footer {
